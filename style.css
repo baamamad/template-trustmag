@@ -3464,7 +3464,8 @@ div#wrapper.open > .offcanvas-mask {
 }
 .header-style2 .main-menu-area .ne-main-menu nav ul li a {
   padding: 30px 20px 20px;
-  color: #111111;
+  /* color: #111111; */
+  color: #ffffff;
 }
 .header-style2 .main-menu-area .ne-main-menu nav ul li a:hover {
   color: #e53935;
@@ -3507,7 +3508,8 @@ div#wrapper.open > .offcanvas-mask {
     border-right: 0;
   }
   .header-style2 .header-action-item ul li .search-button i {
-    color: #111111;
+    /* color: #111111; */
+    color: #ffffff;
   }
 }
 .header-style2 .offcanvas-menu-btn a.menu-bar {
@@ -3515,7 +3517,8 @@ div#wrapper.open > .offcanvas-mask {
   top: -20px;
 }
 .header-style2 .offcanvas-menu-btn a.menu-bar span {
-  background-color: #111111;
+  /* background-color: #111111; */
+  color: #ffffff;
 }
 .header-style2 .offcanvas-menu-btn a.menu-times {
   left: -30px;
@@ -6164,3 +6167,5 @@ ul.footer-social li a:hover {
     font-size: 18px;
   }
 }
+
+
