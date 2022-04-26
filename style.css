@@ -62,7 +62,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
   margin: 0 0 20px 0;
   color: #111111;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 h1 {
   font-size: 24px;
@@ -584,9 +584,9 @@ p.text-bold-primary {
 .color-light {
   color: #ffffff;
 }
-.text-capitalize {
+/* .text-capitalize {
   text-transform: capitalize;
-}
+} */
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -1428,7 +1428,7 @@ ul.item2-inline li:last-child {
   padding: 0 20px;
   line-height: 40px;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 600;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
@@ -2351,7 +2351,7 @@ ul.item2-inline li:last-child {
   width: 100%;
   border: 2px solid #e53935;
   background-color: #e53935;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -2406,7 +2406,7 @@ ul.item2-inline li:last-child {
   padding: 0 3rem;
   border: 1px solid #dcdcdc;
   background-color: transparent;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #111111;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -2444,7 +2444,7 @@ ul.item2-inline li:last-child {
   line-height: 5.2rem;
   padding: 0 4rem;
   background-color: #111111;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -3135,7 +3135,7 @@ div#wrapper.open > .offcanvas-mask {
 }
 .title-login-form {
   font-size: 30px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-align: center;
   margin-bottom: 10px;
   font-weight: 600;
@@ -3390,7 +3390,7 @@ div#wrapper.open > .offcanvas-mask {
 .main-menu-area .ne-main-menu nav ul li ul.ne-dropdown-menu > li a {
   display: block;
   color: #ffffff;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -4535,7 +4535,7 @@ ul.sidebar-tags {
   margin-bottom: -5px;
 }
 ul.sidebar-tags li {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   display: inline-block;
   float: left;
   margin-right: 5px;
@@ -4562,7 +4562,7 @@ ul.sidebar-tags2 {
   margin-bottom: -5px;
 }
 ul.sidebar-tags2 li {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   display: inline-block;
   float: left;
   margin-right: 5px;
@@ -5288,7 +5288,7 @@ ul.blog-tags li:first-child {
   z-index: 1;
 }
 .breadcrumbs-area .breadcrumbs-content h1 {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 600;
   margin-bottom: 2px;
   color: #ffffff;
@@ -5327,7 +5327,7 @@ ul.blog-tags li:first-child {
   z-index: 1;
 }
 .breadcrumbs-area2 .breadcrumbs-content h1 {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 600;
   margin-bottom: 2px;
   color: #111111;
@@ -6168,4 +6168,9 @@ ul.footer-social li a:hover {
   }
 }
 
-
+.w3-content img{
+  height: 250px;width: 100%;
+}
+.publicites-2 img{
+  height: 270px;width: 100%;
+}
