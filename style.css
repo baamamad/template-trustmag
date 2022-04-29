@@ -4712,7 +4712,8 @@ ul.address-info li {
   color: #111111;
   position: relative;
   display: inline-flex;
-  width: 49%;
+  /* width: 49%; */
+  width: 100%;
   margin-bottom: 15px;
   padding-left: 35px;
 }
