@@ -5637,7 +5637,7 @@ ul.footer-social li a {
   width: 45px;
   height: 40px;
   line-height: 40px;
-  background-color: #404040;
+  /* background-color: #404040; */
   text-align: center;
   color: #ffffff;
   display: block;
@@ -5647,9 +5647,26 @@ ul.footer-social li a {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-ul.footer-social li a:hover {
-  background-color: #e53935;
+
+/*Color social networks*/
+ul.footer-social li a.facebook{
+  background-color: #3b5998;
 }
+ul.footer-social li a.twitter{
+  background-color: #1DA1F2;
+}
+ul.footer-social li a.linkedin{
+  background-color: #0e76a8;
+}
+ul.footer-social li a.instagram{
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+
+/* ul.footer-social li a:hover {
+  background-color: #e53935;
+} */
 /*=====================================
 [15] Helper Elements
 ======================================*/
